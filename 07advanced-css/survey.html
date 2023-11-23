@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        
+        <title>Rocky Mountain Anglers: Home</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn about fishing in the Rocky Mountains">
+        <meta name="author" content="Carter Bohin">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="fish.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
+        
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <img src="images/logo.png" alt="site logo" width="100" height="83">
+            <div>
+                <h1>Rocky Mountain Anglers</h1>
+                <p>Fishing in the Rocky Mountains</p>
+            </div>
+        </header>
+        <!-- Start of the page nav -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Rocky Mountain Anglers</a></li>
+                <li><a href="resources.html">Popular Lakes to Fish</a></li>
+                <li><a href="lakes.html">Rocky Mountain Lakes</a></li>
+                <li class="active"><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+    
+    <!--start the page main-->
+    <main>
+        <h1>Take our Fishing survey</h1>
+        <form method="get" class="myForm" action="thanks.html">
+        
+            <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name*<input type="text" name="fname" required="" placeholder="First name"></label>
+            <label>Last Name*<input type="text" name="lname" required="" placeholder="Last name"></label>
+            <label>Cell Number<input type="tel" name="phone" placeholder="(801-123-8888)"></label>
+            <label>Email*<input type="email" name="email" required="" placeholder="Ilovefishing@gmail.com"></label>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Where do you fish/favorite location?</legend>
+                <label><input type="radio" name="method" value="colorado">Colorado</label>
+                <label><input type="radio" name="method" value="idaho">Idaho</label>
+                <label><input type="radio" name="method" value="montana">Montana</label>
+                <label><input type="radio" name="method" value="utah">Utah</label>
+                <label><input type="radio" name="method" value="wyoming">Wyoming</label>
+                <label><input type="radio" name="method" value="other">Other</label>
+            </fieldset>
+        
+            <fieldset>
+            <legend>What Fish do you like to catch</legend>
+                <label><input type="checkbox" name="articgrayling" value="chosen">Arctic Grayling</label>
+                <label><input type="checkbox" name="brooktrout" value="chosen">Brook Trout</label>
+                <label><input type="checkbox" name="browntrout" value="chosen">Brown Trout</label>   
+                <label><input type="checkbox" name="cutthroat" value="chosen">Cutthroat Trout</label>
+                <label><input type="checkbox" name="kokanee" value="chosen">Kokanee Salmon</label>
+                 <label><input type="checkbox" name="laketrout" value="chosen">Lake Trout</label>
+                 <label><input type="checkbox" name="rainbow" value="chosen">Rainbow Trout</label>
+                
+                <label>What Species of Fish do you enjoy catching
+                <select name="species">
+                <option value="none">Please Select</option> 
+                <option value="bass">Bass</option>
+                <option value="catfish">Catfish</option>
+                <option value="salmon">Salmon</option>
+                <option value="sucker">Sucker</option>
+                <option value="sunfish">Sunfish</option>
+                <option value="trout">Trout</option>
+                <option value="other">Other</option>
+                </select>
+                </label>
+                
+            </fieldset>
+            
+            <label>Comment: Where and how you catch the fish!
+                <textarea name="comments" placeholder="How do You Catch the fish above?"></textarea>
+            
+            </label>
+            
+            
+            
+            
+            
+            
+        
+        <input type="submit" value="send survey information">
+        </form>
+    </main>
+
+
+    <!--start of footer-->
+    <footer>
+        <p>© 2023 • RMAnglers • <a href="mailto:bohinfishing@gmail.com">Email Us</a></p>
+    </footer>
+
+</html>

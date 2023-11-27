@@ -167,7 +167,7 @@ figure.wrapped figcaption {
     width: 100%;
     margin: 0;
 }
-heroimageboat img {
+.heroimageboat img {
     width: 100%;
     height: auto;
 }
@@ -257,7 +257,7 @@ footer a {
 }
 
 header, nav, main, footer {
-    max-height: 64rem;
+    max-width: 64rem;
     margin: 0 auto;
 }
 

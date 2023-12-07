@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Find your bucketlist vacation spot">
+    <meta name="author" content="Carter Bohin">
+    <meta name="viewport" content="widthh=device-width, initial-scale=1">
+<title>Bucketlist Vacations</title>
+    <link rel="stylesheet" href="vacation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <img src="images/logot.jpeg" alt="logo">
+        <div>
+        <h1>Bucketlist Vacations</h1>
+        <p>Find your bucketlist vacation spot</p>
+        </div>
+    </header>
+    
+
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Bucketlist</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="video.html">Videos</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        
+        <h1>Contact Us</h1>
+       
+        <h2>Phone</h2>
+        <p>930-345-3213</p>
+        <h2>Email Address</h2>
+        <p>bucketlist@gmail.com</p>
+        <h2>Address</h2>
+        <address>
+            Bucketlist Vacations<br>
+            123 West eggnog<br>
+            sandy, Ut
+        </address>
+        <h2>Location Map</h2>
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12118.784302238937!2d-111.8549555308547!3d40.592463536694545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875262b2065d7f9f%3A0x96a0d7c743e03524!2sAlta%20Vista%2C%20UT%2084093!5e0!3m2!1sen!2sus!4v1682974396533!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        
+        <h1>If you're ready for your next bucketlist vacation reach out!</h1>
+        <form method="get" class="myForm" action="thanks.html">
+        
+            <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name*<input type="text" name="fname" required placeholder="First name"></label>
+            <label>Last Name*<input type="text" name="lname" required placeholder="Last name"></label>
+            <label>Cell Number<input type="tel" name="phone" placeholder="(801-123-8888)"></label>
+            <label>Email*<input type="email" name="email" required placeholder="Bucketlist@gmail.com"></label>
+            </fieldset>
+            
+            <fieldset>
+            <legend>What package sounds best?</legend>
+                <label><input type="radio" name="method" value="Cruise">Cruise</label>
+                <label><input type="radio" name="method" value="resort">Resort</label>
+                <label><input type="radio" name="method" value="private">Private</label>
+            </fieldset>
+        
+            <fieldset>
+            <legend>How many people plan to come?</legend>
+                <label><input type="checkbox" name="just me" value="chosen">Just Me</label>
+                <label><input type="checkbox" name="not sure" value="chosen">Not sure</label>
+               
+                 <br>
+                
+                <label> How many people will come?
+                <select name="people">
+                <option value="none">Please Select</option> 
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="other">Other</option>
+                </select>
+                </label>
+                
+            </fieldset>
+            
+            <label>Comment: Add anything we need to know
+                <textarea name="comments" placeholder="I would like to know how much for 2 people"></textarea>
+            
+            </label>
+            
+            
+            
+            
+            
+            
+        
+        <input type="submit" value="Send Bucketlist Information">
+        </form>
+
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2023 &bull; Bucketlist Vacations &bull; <a href="mailto:bucketlist@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+</html>
